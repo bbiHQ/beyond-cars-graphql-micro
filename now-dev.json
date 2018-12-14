@@ -1,7 +1,7 @@
 {
-  "name": "exchangeunion-graphql-micro-api-dev",
+  "name": "beyond-cars-sellcar-graphql-micro-dev",
   "alias": [
-    "api-uat.eu.bbi.codes"
+    "api.dev.sellcar.hk"
   ],
   "dotenv": ".env-dev",
   "type": "npm",

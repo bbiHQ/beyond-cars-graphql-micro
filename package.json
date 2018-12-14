@@ -1,7 +1,7 @@
 {
-  "name": "beyond-cars-graphql-micro",
+  "name": "beyond-cars-sellcar-graphql-micro",
   "version": "1.0.0",
-  "description": "beyond-cars-graphql-micro",
+  "description": "beyond-cars-sellcar-graphql-micro",
   "main": "index.js",
   "dependencies": {
     "@accounts/graphql-api": "^0.3.0-beta.28",
@@ -34,12 +34,13 @@
     "dev-local": "micro-dev --dotenv .env-local",
     "dev": "micro-dev --dotenv .env-dev",
     "deploy": "npm run deploy-stage",
+    "deploy-dev": "now --local-config=now-dev.json --team beyond-cars && now alias --local-config=now-dev.json --team beyond-cars",
     "deploy-stage": "now --local-config=now-stage.json --team beyond-cars && now alias --local-config=now-stage.json --team beyond-cars",
     "deploy-production": "now --local-config=now-production.json --team beyond-cars && now alias --local-config=now-production.json --team beyond-cars"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/beyond-cars/beyond-cars-graphql-micro.git"
+    "url": "git+ssh://git@bitbucket.org/beyond-cars/beyond-cars-sellcar-graphql-micro.git"
   },
   "keywords": [
     "micro",
@@ -62,5 +63,5 @@
     }
   ],
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/beyond-cars/beyond-cars-graphql-micro#readme"
+  "homepage": "https://bitbucket.org/beyond-cars/beyond-cars-sellcar-graphql-micro#readme"
 }

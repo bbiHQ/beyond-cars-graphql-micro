@@ -1,7 +1,7 @@
 {
-  "name": "exchangeunion-graphql-micro-api-production",
+  "name": "beyond-cars-sellcar-graphql-micro-production",
   "alias": [
-    "api-v2.exchangeunion.com"
+    "api.sellcar.hk"
   ],
   "dotenv": ".env-production",
   "type": "npm",

@@ -1,7 +1,7 @@
 {
-  "name": "exchangeunion-graphql-micro-api-stage",
+  "name": "beyond-cars-sellcar-graphql-micro-stage",
   "alias": [
-    "api-v2.uat.exchangeunion.com"
+    "api.uat.sellcar.hk"
   ],
   "dotenv": ".env-stage",
   "type": "npm",
