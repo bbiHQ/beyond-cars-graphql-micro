@@ -1,0 +1,14 @@
+{
+  "name": "exchangeunion-graphql-micro-api-dev",
+  "alias": [
+    "api-uat.eu.bbi.codes"
+  ],
+  "dotenv": ".env-dev",
+  "type": "npm",
+  "scale": {
+    "sfo1": {
+      "min": 0,
+      "max": 1
+    }
+  }
+}

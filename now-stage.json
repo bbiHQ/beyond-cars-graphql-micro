@@ -1,0 +1,14 @@
+{
+  "name": "exchangeunion-graphql-micro-api-stage",
+  "alias": [
+    "api-v2.uat.exchangeunion.com"
+  ],
+  "dotenv": ".env-stage",
+  "type": "npm",
+  "scale": {
+    "sfo1": {
+      "min": 0,
+      "max": 1
+    }
+  }
+}

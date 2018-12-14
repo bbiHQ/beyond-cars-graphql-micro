@@ -1,0 +1,14 @@
+{
+  "name": "exchangeunion-graphql-micro-api-production",
+  "alias": [
+    "api-v2.exchangeunion.com"
+  ],
+  "dotenv": ".env-production",
+  "type": "npm",
+  "scale": {
+    "sfo1": {
+      "min": 0,
+      "max": 1
+    }
+  }
+}
