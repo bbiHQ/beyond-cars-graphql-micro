@@ -87,8 +87,15 @@ const _Date = require('./graphqlSchema/Date');
 const _JSON = require('./graphqlSchema/JSON');
 const DataField = require('./graphqlSchema/DataField');
 const Translatable = require('./graphqlSchema/Translatable');
+const CarColor = require('./graphqlSchema/CarColor');
 // const SchemaDefinition = require('./graphqlSchema/SchemaDefinition');
 const Field = require('./graphqlSchema/Field');
+const DataMeta = require('./graphqlSchema/DataMeta');
+const SEOFields = require('./graphqlSchema/SEOFields');
+const CarMake = require('./graphqlSchema/CarMake');
+const CarModel = require('./graphqlSchema/CarModel');
+const CarTrim = require('./graphqlSchema/CarTrim');
+
 // const Page = require('./graphqlSchema/Page');
 // const Component = require('./graphqlSchema/Component');
 // const ObjectModel = require('./graphqlSchema/ObjectModel');
@@ -143,8 +150,16 @@ const schema = makeExecutableSchema({
     _Date.typeDefs,
     _JSON.typeDefs,
     DataField.typeDefs,
-    Translatable.typeDefs,
     Field.typeDefs,
+    Translatable.typeDefs,
+    CarColor.typeDefs,
+    DataMeta.typeDefs,
+
+    SEOFields.typeDefs,
+    CarMake.typeDefs,
+    CarModel.typeDefs,
+    CarTrim.typeDefs,
+    
     // SchemaDefinition.typeDefs,
     // Page.typeDefs,
     // Component.typeDefs,
@@ -164,6 +179,9 @@ const schema = makeExecutableSchema({
     _JSON.resolvers,
     DataField.resolvers,
     Field.resolvers,
+    CarMake.resolvers,
+    CarModel.resolvers,
+    CarTrim.resolvers,
     // Page.resolvers,
     // Component.resolvers,
     // ObjectModel.resolvers,
