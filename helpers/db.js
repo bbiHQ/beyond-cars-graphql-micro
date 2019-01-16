@@ -59,8 +59,6 @@ const db = {
         throw(`Invalid ObjectId ${_id}.`);
       }
 
-      // TODO: delete CarTrim as well
-
       await CarTrim.updateMany({ carMakeId: _id, 'meta.deletedAt': { $exists: false } }, { 'meta.deletedAt': Date.now() });
       
       await CarModel.updateMany({ carMakeId: _id, 'meta.deletedAt': { $exists: false } }, { 'meta.deletedAt': Date.now() });
