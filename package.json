@@ -16,7 +16,7 @@
     "graphql-tools": "^4.0.0",
     "graphql-type-json": "^0.2.1",
     "json5": "^2.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "lodash-checkit": "^2.1.0",
     "mailchimp-api-v3": "^1.12.0",
     "micro": "^9.3.3",
